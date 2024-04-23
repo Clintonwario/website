@@ -1,1 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <title>Your Music Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Your Music Website</h1>
+        <nav id="top-nav">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#music">Music</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li class="search">
+                    <input type="text" id="search-input" placeholder="Search...">
+                    <button id="search-btn">Search</button>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="home">
+        <h2>Welcome to Your Music Website</h2>
+        music website
+    </section>
 
+    <section id="about">
+        <h2>music</h2>
+        <p>Welcome to our music website! We are passionate about music and strive to provide you with the best listening experience. Our team consists of dedicated musicians and music enthusiasts who curate and share our favorite tracks with you. Whether you're looking for the latest hits or timeless classics, we've got you covered. Explore our collection and enjoy the magic of music!</p>
+    </section>
+
+    <section id="music">
+        <h2>Music</h2>
+        <div class="audio-player">
+            <audio id="audio" src=""></audio>
+            <button id="play-pause-btn" class=:https://ziiki.media/Dah!(Ft.Alikiba)-mp3></button>
+            <input id="volume-slider" type="range" min="0" max="1" step="0.01" value="1">
+        </div>
+    </section>
+    
+    <section id="contact">
+        <h2>Contact Us</h2>
+        //music website
+    </section>
+    <section id="reviews">
+        <h2>Reviews and Ratings</h2>
+        <div id="reviews-container">
+            <!-- Reviews will be dynamically loaded here -->
+        </div>
+        <form id="review-form">
+            <textarea id="review-text" placeholder="Write your review..."></textarea>
+            <input type="number" id="rating" placeholder="Rating (1-5)">
+            <button type="submit">Submit Review</button>
+        </form>
+    </section>        
+    
+    <section id="music-news">
+        <h2>Music News and Articles</h2>
+        <div id="news-container">
+            <div class="news-item">
+                <h3>New Album Release</h3>
+                <p>Check out the latest album release from your favorite artist!</p>
+                <a href="https://example.com/article1" target="_blank">Read more</a>
+            </div>
+            <div class="news-item">
+                <h3>Music Festival Announcement</h3>
+                <p>Exciting news! A new music festival is coming to town. Get your tickets now!</p>
+                <a href="https://example.com/article2" target="_blank">Read more</a>
+            </div>
+            <!-- More news/articles items will be dynamically loaded here -->
+        </div>
+    </section>
+
+    
+    <section id="social-sharing">
+        <h2>Share this page</h2>
+        <ul class="social-icons">
+            <li><a href="#" onclick="shareOnFacebook()"><img src="facebook-icon.png" alt="Facebook"></a></li>
+            <li><a href="#" onclick="shareOnTwitter()"><img src="twitter-icon.png" alt="Twitter"></a></li>
+            <li><a href="#" onclick="shareOnLinkedIn()"><img src="linkedin-icon.png" alt="LinkedIn"></a></li>
+            <!-- Add more social icons and share functions as needed -->
+        </ul>
+    </section>
+    
+    <footer>
+        <p>&copy; 2024 music website. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
